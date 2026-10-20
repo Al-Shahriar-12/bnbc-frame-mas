@@ -10,7 +10,8 @@ Site class from SPT, the equivalent static earthquake force, the analytical wind
   <a href="#how-to-use">How to use</a> ·
   <a href="#how-accurate-is-it">Accuracy</a> ·
   <a href="EXCEL-AUDIT.md">Excel audit</a> ·
-  <a href="#author">Author</a>
+  <a href="#author">Author</a> ·
+  <a href="#dedication">Dedication</a>
 </p>
 
 <p align="center">
@@ -89,14 +90,9 @@ Assumptions: linear elastic plane frames, small displacements, no shear deformat
 
 MIT: use, copy, change and share it freely, including in courses. three.js is MIT-licensed; the Barlow fonts in `index.html` use the SIL Open Font License ([OFL.txt](OFL.txt)).
 
-## Also from MAS Studio
-
-- **[Frame MAS](https://al-shahriar-12.github.io/frame-mas/)**: general 2D frame and truss analysis on an ETABS-style grid.
-- **[Flexure MAS](https://al-shahriar-12.github.io/flexure-mas/)**: beam analysis with shear force, bending moment and deflection diagrams.
-
 ## Author
 
-<img src="author.jpg" width="120" align="left" alt="MD Al Shahriar" style="border-radius:50%;margin-right:16px">
+<img src="author.jpg" width="130" align="left" alt="MD Al Shahriar" style="border-radius:50%;margin-right:16px">
 
 **MD Al Shahriar**<br>
 BSc. in Civil Engineering, Bangladesh University of Engineering and Technology (BUET)<br>
@@ -104,4 +100,22 @@ MAS Studio · GitHub: [@Al-Shahriar-12](https://github.com/Al-Shahriar-12)
 
 <br clear="left">
 
-References: BNBC 2020 Part 6; CE 410 lecture notes by Prof. Tahsin R. Hossain and Prof. Khan Mahmud Amanat, BUET; Design Assistant BNBC 2020 v3.12. If this app helped you, please remember its author in your duas.
+I build free tools so that every civil engineering student can analyse and check structures on any phone or computer. BNBC Frame MAS is my third app:
+
+- **[Flexure MAS](https://al-shahriar-12.github.io/flexure-mas/)**: beam analysis with shear force, bending moment, slope and deflection diagrams, axial force, torsion and 3D. [Source code](https://github.com/Al-Shahriar-12/flexure-mas)
+- **[Frame MAS](https://al-shahriar-12.github.io/frame-mas/)**: 2D frame and truss analysis on an ETABS-style grid, with load combinations, exact diagram values and 3D. [Source code](https://github.com/Al-Shahriar-12/frame-mas)
+
+If this app helped you, please remember its author in your duas.
+
+## Dedication
+
+BNBC Frame MAS is dedicated to my teachers in the Department of Civil Engineering, BUET, and especially to:
+
+- **Dr. Tahsin Reza Hossain**, Department of Civil Engineering, BUET ([BUET profile](https://ce.buet.ac.bd/profile-of-tahsin-reza-hossain/))
+- **Dr. Khan Mahmud Amanat**, Department of Civil Engineering, BUET ([BUET profile](https://ce.buet.ac.bd/khan-mahmud-amanat/))
+
+Their CE 410 lectures on BNBC 2020 seismic and wind loads are the foundation that every calculation in this app is built on and checked against.
+
+## Honorable mention
+
+**Mr. Nitol Rahman** ([nitolrahman@gmail.com](mailto:nitolrahman@gmail.com)), for Design Assistant BNBC 2020, the Excel workbook that gave this app its initial boost. Its sheets set the order of the BNBC calculations that BNBC Frame MAS follows.
