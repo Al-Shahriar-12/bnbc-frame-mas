@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If BNBC Frame MAS helped your study or work, please cite it as below."
+title: "BNBC Frame MAS: BNBC 2020 Frame Design Assistant"
+type: software
+authors:
+  - given-names: "MD"
+    family-names: "Al Shahriar"
+    affiliation: "Bangladesh University of Engineering and Technology (BUET)"
+version: "1.0.0"
+date-released: "2026-10-20"
+license: MIT
+repository-code: "https://github.com/Al-Shahriar-12/bnbc-frame-mas"
+url: "https://al-shahriar-12.github.io/bnbc-frame-mas/"
+abstract: "Free, open-source BNBC 2020 workflow in the browser: site class from SPT, equivalent static seismic force, analytical wind procedure, load combinations by seismic design category, plane-frame analysis with cracked-section stiffness, and drift, P-Delta, soft-storey, sway and deflection checks."
+keywords: [BNBC 2020, Bangladesh National Building Code, seismic load, wind load, frame analysis, storey drift, civil engineering, engineering education]
